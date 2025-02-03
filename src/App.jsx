@@ -78,7 +78,6 @@ function App() {
       <p>Matn: {text} (Uzunligi: {text.length})</p>
       <button onClick={() => changeText("Dunyo")}>Dunyo</button>
       <button onClick={() => changeText("React")}>React</button>
-
       /* 4-masala */
       <h3> Elementlarni yashirish/ko‘rsatish</h3>
       {visible && <p>React-ni o‘rganish juda qiziqarli!</p>}
@@ -90,7 +89,6 @@ function App() {
       <h3>Tasodifiy raqam generatori</h3>
       <button onClick={generateNumber}>Generatsiya qilish</button>
       {randomNumber !== null && <p>Hozirgi son: {randomNumber}</p>}
-      <p>Avvalgi sonlar: {history.join(", ")}</p>
 
       /* 6-masala */
       <h3> Oddiy hisob-kitob</h3>
